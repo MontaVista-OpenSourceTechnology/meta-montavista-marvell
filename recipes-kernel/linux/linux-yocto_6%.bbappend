@@ -1,7 +1,7 @@
 
 COMPATIBLE_MACHINE:marvell-octeontx = "marvell-octeontx"
 
-FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}-5.10:"
+FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
 
 SRC_URI:append:marvell-octeontx = " file://defconfig "
 #KMACHINE:marvell-octeontx = "marvell-cn96xx"
